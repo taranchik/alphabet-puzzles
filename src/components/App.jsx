@@ -1,7 +1,10 @@
-import "./App.css";
-
+import Alphabet from "./Alphabet";
 import React from "react";
 
-const App = () => <div className="App"></div>;
+const App = () => (
+  <div className="App">
+    <Alphabet />
+  </div>
+);
 
 export default App;
